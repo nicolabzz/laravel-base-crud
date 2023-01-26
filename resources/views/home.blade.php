@@ -8,5 +8,8 @@
 </head>
 <body>
     <h1 class="container color-warning">Benvenuto nella home</h1>
+      @include('guest.partials.header')
+    @yield('crudFunction')
+    @include('guest.partials.footer')
 </body>
 </html>

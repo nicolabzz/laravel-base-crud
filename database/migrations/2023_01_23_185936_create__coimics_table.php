@@ -13,7 +13,7 @@ class CreateCoimicsTable extends Migration
      */
     public function up()
     {
-        Schema::create('coimics', function (Blueprint $table) {
+        Schema::create('comics', function (Blueprint $table) {
             $table->id();
             $table->string('title');
             $table->text("description");
